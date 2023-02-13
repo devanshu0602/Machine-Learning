@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # importing datasets
-dataset = pd.read_csv(r"D:\Machine Learning\Machine Learning A-Z (Codes and Datasets)\Part 2 - Regression\Section 4 - Simple Linear Regression\Python\Salary_Data.csv")
+dataset = pd.read_csv(r"D:\Machine Learning\Machine Learning\Salary Predictor\Salary_Data.csv")
 X = dataset.iloc[:, :-1].values
 Y = dataset.iloc[:, 1].values
 
